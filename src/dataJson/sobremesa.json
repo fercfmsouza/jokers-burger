@@ -1,0 +1,37 @@
+[
+  {
+    "id": "c1",
+    "name": "Milkshake de Churros",
+    "description": "Milkshake de churros",
+    "price": "R$22.00",
+    "image": "src/img/milkshake-churros.png"
+  },
+  {
+    "id": "c2",
+    "name": "Milkshake de Morango",
+    "description": "Milkshake de morango",
+    "price": "R$22.00",
+    "image": "src/img/milkshake-morango.png"
+  },
+  {
+    "id": "c3",
+    "name": "Milkshake de Nutella",
+    "description": "Milkshake de nutella",
+    "price": "R$22.00",
+    "image": "src/img/milkshake-nutella.png"
+  },
+  {
+    "id": "c4",
+    "name": "Milkshake de Oreo",
+    "description": "Milkshake de oreo",
+    "price": "R$22.00",
+    "image": "src/img/milkshake-oreo.png"
+  },
+  {
+    "id": "c5",
+    "name": "Milkshake de Paçoca",
+    "description": "Milkshake de paçoca",
+    "price": "R$22.00",
+    "image": "src/img/milkshake-pacoca.png"
+  }
+]

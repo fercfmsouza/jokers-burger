@@ -1,0 +1,121 @@
+[
+  {
+    "id": "a1",
+    "name": "Arlequina",
+    "description": "Burguer de 160g (50% frango 50% bacon), empanado na massa de cerveja, alface, muito molho cheddar, bacon crocante, barbecue Jack Daniel e maionese da casa, servido no pão brioche.",
+    "price": "R$29.90",
+    "image": "src/img/arlequina.png"
+  },
+  {
+    "id": "a2",
+    "name": "Bruce Wayne",
+    "description": "Burguer de 180g do nosso blend, queijo cheddar, bacon crocante e maionese da casa, servido no pão brioche.",
+    "price": "R$28.90",
+    "image": "src/img/bruce-wayne.png"
+  },
+  {
+    "id": "a3",
+    "name": "Chalepeiro Louco",
+    "description": "Burguer de 180g do nosso blend, creme de provolone, farofa de banana da terra frita, geleia de bacon, rúcula e maionese de alho, servido no pão brioche.",
+    "price": "R$28.90",
+    "image": "src/img/chapeleiro-louco.png"
+  },
+  {
+    "id": "a4",
+    "name": "Charada",
+    "description": "Burguer de 180g do nosso blend, queijo cheddar, bacon cebola caramelizada e maionese da casa, servido no pão brioche.",
+    "price": "R$29.90",
+    "image": "src/img/charada.png"
+  },
+  {
+    "id": "a5",
+    "name": "Coringa",
+    "description": "Burguer de 180g do nosso blend, queijo gorgonzola, cebola caramelizada e maionese da casa, servido no pão brioche.",
+    "price": "R$29.90",
+    "image": "src/img/coringa.png"
+  },
+  {
+    "id": "a6",
+    "name": "Duas Caras 1.0",
+    "description": "Burguer de 180g do nosso blend,catupiry empanado, bacon, alface,tomate e maionese da casa, servido no pão brioche.",
+    "price": "R$34,90",
+    "image": "src/img/duas-caras1.png"
+  },
+  {
+    "id": "a7",
+    "name": "Duas Caras 2.0",
+    "description": "Burguer de 180g do nosso blend,catupiry empanado, bacon, alface, tomate e maionese da casa, servido no pão brioche.",
+    "price": "R$34,90",
+    "image": "src/img/duas-caras2.png"
+  },
+  {
+    "id": "a8",
+    "name": "Gotham City",
+    "description": "Burguer de 180g do nosso blend, queijo, bacon crocante, farofa artesanal de bacon, barbecue Jack Daniels e maionese da casa,servido no pão brioche.",
+    "price": "R$34,90",
+    "image": "src/img/gotham-city.png"
+  },
+  {
+    "id": "a9",
+    "name": "Homem Elástico",
+    "description": "Burguer de 180g do nosso blend, 4 camadas de queijo, bacon triturado e maionese da casa, servido no pão brioche.",
+    "price": "R$34,90",
+    "image": "src/img/homem-elastico.png"
+  },
+  {
+    "id": "a10",
+    "name": "Joker Catupa Bacon",
+    "description": "Burguer de 180g do nosso blend, muito catupiry, muito bacon em cubos e maionese da casa, servido no pão brioche.",
+    "price": "R$34,90",
+    "image": "src/img/catupa-bacon.png"
+  },
+  {
+    "id": "a11",
+    "name": "Joker Classic",
+    "description": "Burguer de 180g do nosso blend, queijo e maionese da casa, servido no pão brioche",
+    "price": "R$24,90",
+    "image": "src/img/joker-classic.png"
+  },
+  {
+    "id": "a12",
+    "name": "Magia",
+    "description": "Dois smash burguers de 100g do nosso blend, queijo coalho, alface,tomate, cebola roxa, ovo, picles e maionese da casa, servido no pão brioche.",
+    "price": "R$29,90",
+    "image": "src/img/joker-classic.png"
+  },
+  {
+    "id": "a13",
+    "name": "Magia",
+    "description": "Dois smash burguers de 100g do nosso blend, queijo coalho, alface,tomate, cebola roxa, ovo, picles e maionese da casa, servido no pão brioche.",
+    "price": "R$29,90",
+    "image": "src/img/magia.png"
+  },
+  {
+    "id": "a14",
+    "name": "Suicide Squad",
+    "description": "Dois buguers de 100g do nosso blend, queijo, alface, tomate,cebola crispy e maionese da casa, servido no pão brioche.",
+    "price": "R$28,90",
+    "image": "src/img/suicide-squad.png"
+  },
+  {
+    "id": "a15",
+    "name": "The Joker",
+    "description": "Burguer de 200g do nosso blend, recheado com muito cheddar e enrolado com tiras de bacon, farofa artesanal de bacon e maionese da casa, servido no pão brioche.",
+    "price": "R$33,90",
+    "image": "src/img/the-joker.png"
+  },
+  {
+    "id": "a16",
+    "name": "Trio Fantástico",
+    "description": "Três mini burguers compostos por: 1- burguer de 50g do nosso blend, queijo e maionese casa, servido no mini pão, 2- burguer de 50g do nosso blend, cheddar, bacon e maionese da casa, servido no mini pão, 3- burguer de 50g do nosso blend, queijo, cebola crispy, barbecue Jack Daniels e maionese da casa, servido no mini pão.",
+    "price": "R$26,90",
+    "image": "src/img/trio-fantastico.png"
+  },
+  {
+    "id": "a17",
+    "name": "Triplo Joker",
+    "description": "Três smash burguers de 100g do nosso blend, farofa artesanal de bacon, queijo, bacon, ketchup, mostarda e maionese da casa, servido no pão brioche.",
+    "price": "R$35,90",
+    "image": "src/img/triplo-joker.png"
+  }
+]
