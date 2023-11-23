@@ -8,7 +8,7 @@ import ContactPage from '../src/pages/ContactPage';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Navbar />
       <Routes>
         <Route path='/' element={<HomePage />} />
