@@ -11,8 +11,8 @@ const Navbar = () => {
 
   return (
     <div className={`navbar-container ${isMenuOpen ? 'menu-open' : ''}`}>
-      <Link to="/">
-        <img src="/img/logo.png" alt="Joker's Burguer Logo" />
+      <Link to='/'>
+        <img src='/img/logo.png' alt="Joker's Burguer Logo" />
       </Link>
 
       {/* Menu Hamburguer */}
@@ -20,26 +20,26 @@ const Navbar = () => {
         className={`hamburger-menu ${isMenuOpen ? 'open' : ''}`}
         onClick={toggleMenu}
       >
-        <i className="material-symbols-outlined">menu</i>
+        <i className='material-symbols-outlined'>menu</i>
       </div>
 
       <ul className={`navbar-items ${isMenuOpen ? 'show' : ''}`}>
         <li>
-          <Link to="/menu" className="special-link">
+          <Link to='/menu' className='special-link'>
             CARDÁPIO
           </Link>
         </li>
         <li>
-          <Link to="/contact">CONTATO</Link>
+          <Link to='/contact'>CONTATO</Link>
         </li>
         <li>
           <a
             href={`https://api.whatsapp.com/send?phone=${encodeURIComponent(
               '+5568992090190',
             )}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="navbar-button"
+            target='_blank'
+            rel='noopener noreferrer'
+            className='navbar-button'
           >
             FAÇA SEU PEDIDO
           </a>
