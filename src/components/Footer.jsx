@@ -1,5 +1,71 @@
+import { Link } from 'react-router-dom';
+import '../styles/Footer.css';
+
 const Footer = () => {
-  return <div>MUDANDO FOOTER Footer</div>;
+  return (
+    <div>
+      <div className="footer-container">
+        <div className="column">
+          <Link to="/">
+            <img src="/img/logo.png" alt="Joker's Burguer Logo" />
+          </Link>
+        </div>
+
+        <div className="column">
+          <h1>CONTATO</h1>
+          <ul className="contact-info">
+            <li>+55 68 9.9209-0190</li>
+            <li>Rua Santa Inês, 401 - Aviário</li>
+            <li>Rio Branco - Acre </li>
+          </ul>
+        </div>
+
+        <div className="column">
+          <h1>REDES SOCIAIS</h1>
+          <ul className="social-icons">
+            <li>
+              <a
+                href="https://www.instagram.com/joker.burger.ac/"
+                target="blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/assets/instagram-small.svg" alt="Instagram Logo" />
+              </a>
+            </li>
+
+            <li>
+              <a
+                href="https://www.facebook.com/joker.burger.ac/?locale=pt_BR"
+                target="blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/assets/facebook-small.svg" alt="Facebook Logo" />
+              </a>
+            </li>
+
+            <li>
+              <a
+                href={`https://api.whatsapp.com/send?phone=${encodeURIComponent(
+                  '+5568992090190',
+                )}`}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/assets/whatsapp.svg" alt="Whatsapp Logo" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div className="footer-paragraph">
+        <p>
+          Jokers © Made by <span>Fernanda Souza</span> and
+          <span> Louise Carnevali</span>
+        </p>
+      </div>
+    </div>
+  );
 };
 
 export default Footer;
