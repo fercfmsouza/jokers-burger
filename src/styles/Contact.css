@@ -1,0 +1,28 @@
+.contact-container {
+  background-color: var(--color-white);
+  margin: 60px;
+}
+
+.contact-container h1{
+  font-family: var(--font-family-2);
+  font-size: 3rem;
+}
+
+.contact-wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border-radius: 5px;
+}
+
+.contact-wrapper-info{
+  margin-left: 60px;
+}
+
+.contact-infos{
+  margin-bottom: 60px;
+  font-family: var(--font-family-2);
+}
+

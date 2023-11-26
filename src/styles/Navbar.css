@@ -28,8 +28,7 @@
   color: var(--color-white);
   font-size: 16px;
   font-weight: 350;
-  font-family: var(--font-family-2);
-  letter-spacing: 0.5px;
+  font-family: var(--font-family-1);
   cursor: pointer;
   margin: 0 20px;
   position: relative;
@@ -82,7 +81,7 @@
   }
 
   .navbar-container.menu-open {
-    z-index: 1;
+   z-index: 1;
   }
 
   .navbar-items li {
