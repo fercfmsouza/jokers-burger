@@ -29,13 +29,15 @@
   font-family: var(--font-family-1);
   font-size: 1.75rem;
   text-transform: uppercase;
+  line-height: 1;
 }
 
 .text-overlay h1 {
   font-family: var(--font-family-2);
   font-size: 4.5rem;
   text-transform: lowercase;
-  padding-bottom: 40px;
+  line-height: 1;
+  margin-bottom: 40px;
 }
 
 .button-container {
@@ -83,15 +85,11 @@
 
 /* Second section */
 .section-2 {
-  /* 
-  height: 550px;
-  padding: 40px 0;  */
-
   width: 100%;
   padding: 40px 0;
   background-color: var(--color-white);
   text-align: center;
-  margin-bottom: 20px; /* Add margin to prevent overlap with section-3 */
+  /* margin-bottom: 20px; Add margin to prevent overlap with section-3 */
 }
 
 .section-2 h1 {
@@ -99,7 +97,8 @@
   font-size: 3rem;
   text-transform: lowercase;
   text-align: center;
-  padding: 50px 0 40px 0;
+  line-height: 1;
+  margin-bottom: 40px;
 }
 
 .img-container {
@@ -141,10 +140,15 @@
   transition: width 0.3s ease;
 }
 
+.img-container-all {
+  text-align: left;
+}
+
 /* Section 3 */
 
 .section-3 {
-  height: 600px;
+  /* height: 600px; */
+  height: auto;
   display: flex;
   gap: 60px;
   align-items: center;
@@ -152,20 +156,20 @@
   padding: 40px 70px;
   width: 100%;
   background-color: var(--color-gray-bg);
-  margin-top: 20px; /* Add margin to create space between section-2 and section-3 */
+  margin-top: 20px;
+}
+
+.section-3-content div:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .section-img img {
-  /*
-  width: 500px;
-  height: 500px; */
-
   object-fit: cover;
   border-radius: 5px;
   width: 100%;
   max-width: 500px; /* Limit the maximum width for smaller screens */
-  height: auto;
-  margin-bottom: 20px;
+  /* height: auto; */
+  /* margin-bottom: 20px; */
 }
 
 .content-1 h2,
@@ -179,16 +183,13 @@
   font-family: var(--font-family-2);
   font-size: 4.5rem;
   text-transform: lowercase;
+  line-height: 1;
 }
 
 .content-2 {
   display: flex;
-  padding: 20px 0 40px 0;
+  /* padding: 20px 0 40px 0; */
   gap: 10px;
-}
-
-.content-3 {
-  padding: 40px 0 0 0;
 }
 
 .content-social {
@@ -210,7 +211,7 @@
   }
   .text-overlay h1 {
     font-size: 2.5rem;
-    padding-bottom: 0;
+    margin-bottom: 0;
   }
 
   .text-overlay h2 {
@@ -232,12 +233,11 @@
 
   .section-2 {
     padding: 20px 0;
-    margin-bottom: 10px;
   }
 
   .section-2 h1 {
     font-size: 2rem;
-    padding: 20px 0 20px 0;
+    margin-bottom: 20px;
   }
 
   .img-container {
@@ -252,13 +252,17 @@
 
   .section-3 {
     flex-direction: column;
-    margin-top: 10px;
-    gap: 0px;
-    /* height: auto; */
+    gap: 10px;
+    margin-top: 0px;
+  }
+
+  .section-3-content div:not(:last-child) {
+    margin-bottom: 15px;
   }
 
   .content-1 h1 {
-    font-size: 3rem;
+    font-size: 2.8rem;
+    margin-bottom: 10px;
   }
 
   .content-1 h2,
@@ -266,16 +270,8 @@
     font-size: 1rem;
   }
 
-  .content-2 {
-    padding: 10px 0 20px 0;
-  }
-
   .content-2 h1 {
     font-size: 2.5rem;
-  }
-
-  .content-3 {
-    padding: 0px;
   }
 
   .content-social {

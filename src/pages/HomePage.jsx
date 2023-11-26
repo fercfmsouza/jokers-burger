@@ -38,15 +38,15 @@ const HomePage = () => {
           Nossas Delícias<span className='dot'>.</span>
         </h1>
         <div className='img-container'>
-          <div>
+          <div className='img-container-all'>
             <img src='/img/burguer.png' alt='delicious burger' />
             <p>Burgers</p>
           </div>
-          <div>
+          <div className='img-container-all'>
             <img src='/img/bolinho.png' alt='delicious appetizer' />
             <p>Entradas</p>
           </div>
-          <div>
+          <div className='img-container-all'>
             <img src='/img/milkshake.png' alt='delicious milkshake' />
             <p>Sobremesas</p>
           </div>
