@@ -1,3 +1,4 @@
+import MapContainer from '../components/MapContainer';
 import '../styles/Contact.css';
 
 const ContactPage = () => {
@@ -10,42 +11,47 @@ const ContactPage = () => {
       <div className="contact-wrapper">
         <div className="contact-wrapper-info">
           <div className="contact-infos">
-            <div>
-              <img src="/assets/fone.svg" alt="Fone Icon" />
+            <div className="contact-infos-icon">
+              <span className="material-symbols-outlined"> location_on</span>
+              {/* <img src="/assets/local.svg" alt="Local Icon" /> */}
             </div>
 
-            <ul>
-              Fale conosco
-              <li>+55 68 9.9209-0190</li>
-            </ul>
+            <div className="contact-infos-text">
+              <h3>Localização</h3>
+              <p>Travessa Santa Inês, 401 - Aviário</p>
+              <p>Rio Branco - Acre</p>
+              <p>Brasil</p>
+            </div>
           </div>
 
           <div className="contact-infos">
-            <div>
-              <img src="/assets/local.svg" alt="Local Icon" />
+            <div className="contact-infos-icon">
+              <span className="material-symbols-outlined"> call</span>
+              {/* <img src="/assets/fone.svg" alt="Fone Icon" /> */}
             </div>
 
-            <ul>
-              Localização
-              <li>Rua Santa Inês, 401 - Aviário</li>
-              <li>Rio Branco - Acre</li>
-            </ul>
+            <div className="contact-infos-text">
+              <h3>Fale conosco</h3>
+              <p>+55 68 9.9209-0190</p>
+            </div>
           </div>
 
           <div className="contact-infos">
-            <div>
-              <img src="/assets/clock.svg" alt="Local Icon" />
+            <div className="contact-infos-icon">
+              <span className="material-symbols-outlined"> schedule</span>
+              {/* <img src="/assets/clock.svg" alt="Local Icon" /> */}
             </div>
 
-            <ul>
-              Horário de Funcionamento
-              <li>18-23h de ter à dom</li>
-            </ul>
+            <div className="contact-infos-text">
+              <h3>Horário de Funcionamento</h3>
+              <p>18-23h de ter à dom</p>
+            </div>
           </div>
         </div>
 
         <div className="contact-wrapper-img">
-          <img src="/img/adress.png" alt="Image of Google Maps adress" />
+          {/* <img src="/img/adress.png" alt="Image of Google Maps adress" /> */}
+          <MapContainer />
         </div>
       </div>
     </div>

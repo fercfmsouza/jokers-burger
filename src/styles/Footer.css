@@ -6,21 +6,15 @@
   background-color: var(--color-black);
   color: var(--color-white);
   font-family: var(--font-family-1);
-  font-size: 12px;
+  font-size: 0.8rem;
   padding: 50px 60px;
 }
-  padding-top: 50px;
- }
 
 .column {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   letter-spacing: 2px;
-}
-
-.column img {
-  width: 120px;
 }
 
 .contact-info li {
@@ -49,11 +43,11 @@
 .footer-paragraph {
   font-family: var(--font-family-1);
   background-color: var(--color-black);
-  font-size: 12px;
+  font-size: 0.8rem;
   color: var(--color-gray);
   letter-spacing: 1px;
   text-align: center;
-  padding: 80px 0 50px 0;
+  padding: 50px 0 30px 0;
 }
 
 .footer-paragraph a {
@@ -65,9 +59,9 @@
 }
 
 @media screen and (max-width: 768px) {
-.footer-container {
-    font-size: 7px;
-    padding: 30px 10px;
+  .footer-container {
+    font-size: 0.4rem;
+    padding: 30px 20px;
   }
 
   .column img {
@@ -75,11 +69,11 @@
   }
 
   .contact-info li:first-child {
-    margin-top: 15px;
+    padding-top: 15px;
   }
 
   .contact-info li:not(:first-child) {
-    margin-top: 8px;
+    padding-top: 8px;
   }
 
   .social-icons img {
@@ -88,6 +82,6 @@
 
   .footer-paragraph {
     padding: 20px;
-    font-size: 10px;
+    font-size: 0.6rem;
   }
 }
