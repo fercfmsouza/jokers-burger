@@ -7,7 +7,6 @@
   box-sizing: border-box;
 }
 
-
 h1,
 h2,
 h3 {
@@ -25,6 +24,13 @@ li,
 a {
   list-style: none;
   text-decoration: none;
+}
+
+button {
+  border: none;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #fff;
 }
 
 .dot {

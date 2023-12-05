@@ -1,0 +1,31 @@
+.menu-container {
+  background-color: var(--color-white);
+  margin: 60px 60px 80px 60px;
+}
+
+.menu-container h1 {
+  font-family: var(--font-family-2);
+  font-size: 3rem;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.menu-container h2 {
+  font-family: var(--font-family-1);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 1;
+}
+
+.menu-all-list {
+  padding-top: 60px;
+}
+
+.menu-btn {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.menu-btn a:hover {
+  background-color: var(--color-green);
+}

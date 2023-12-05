@@ -28,7 +28,8 @@
   color: var(--color-white);
   font-size: 1rem;
   font-weight: 350;
-  font-family: var(--font-family-1);
+  font-family: var(--font-family-2);
+  letter-spacing: 0.8px;
   cursor: pointer;
   margin: 0 20px;
   position: relative;
@@ -44,7 +45,7 @@
   color: var(--color-green) !important;
   font-size: 1rem;
   font-weight: 350;
-  font-family: var(--font-family-1);
+  font-family: var(--font-family-2);
   background-color: #141414;
   border: 2px solid var(--color-green);
   padding: 8px 15px;
@@ -55,6 +56,11 @@
 .navbar-button:hover {
   color: var(--color-white) !important;
   background-color: var(--color-green);
+}
+
+.navbar-items li a.active {
+  color: var(--color-green);
+  border-bottom: 2px solid var(--color-green);
 }
 
 @media screen and (max-width: 768px) {
@@ -81,7 +87,7 @@
   }
 
   .navbar-container.menu-open {
-   z-index: 1;
+    z-index: 1;
   }
 
   .navbar-items li {
