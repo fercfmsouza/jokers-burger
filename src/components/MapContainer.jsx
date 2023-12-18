@@ -20,7 +20,10 @@ const MapContainer = () => {
 
   return isLoaded ? (
     <GoogleMap mapContainerStyle={mapStyles} center={defaultCenter} zoom={18}>
-      <Marker position={defaultCenter} />
+      <Marker
+        position={defaultCenter}
+        icon={'http://maps.google.com/mapfiles/ms/icons/purple-dot.png'}
+      />
     </GoogleMap>
   ) : (
     <h1>Carregando...</h1>
