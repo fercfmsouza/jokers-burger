@@ -1,7 +1,6 @@
 import MenuCategory from '../components/MenuCategory';
 import '../styles/MenuPage.css';
 import products from '../dataJson/products.json';
-import Instagram from '../components/Instagram';
 
 const MenuPage = () => {
   return (
@@ -32,7 +31,6 @@ const MenuPage = () => {
           Faça seu pedido aqui
         </a>
       </div>
-      <Instagram />
     </div>
   );
 };

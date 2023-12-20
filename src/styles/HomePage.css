@@ -114,6 +114,7 @@
   height: 300px;
   border-radius: 5px;
   cursor: pointer;
+  object-fit: cover;
 }
 
 .img-container p {
@@ -147,13 +148,12 @@
 /* Section 3 */
 
 .section-3 {
-  /* height: 600px; */
   height: auto;
   display: flex;
-  gap: 60px;
+  gap: 80px;
   align-items: center;
   background-color: var(--color-gray-bg);
-  padding: 40px 70px;
+  padding: 70px 70px;
   width: 100%;
   background-color: var(--color-gray-bg);
   margin-top: 20px;
@@ -168,7 +168,7 @@
   border-radius: 5px;
   width: 100%;
   max-width: 500px; /* Limit the maximum width for smaller screens */
-  /* height: auto; */
+  height: 380px;
   /* margin-bottom: 20px; */
 }
 

@@ -5,119 +5,119 @@
       "name": "Arlequina",
       "description": "Burguer de 160g (50% frango 50% bacon), empanado na massa de cerveja, alface, muito molho cheddar, bacon crocante, barbecue Jack Daniel e maionese da casa, servido no pão brioche.",
       "price": "R$29.90",
-      "image": "../../img/arlequina.png"
+      "image": "../../img/arlequina.jpg"
     },
     {
       "id": "a2",
       "name": "Bruce Wayne",
       "description": "Burguer de 180g do nosso blend, queijo cheddar, bacon crocante e maionese da casa, servido no pão brioche.",
       "price": "R$28.90",
-      "image": "../../img/bruce-wayne.png"
+      "image": "../../img/bruce-wayne.jpg"
     },
     {
       "id": "a3",
       "name": "Chapeleiro Louco",
       "description": "Burguer de 180g do nosso blend, creme de provolone, farofa de banana da terra frita, geleia de bacon, rúcula e maionese de alho, servido no pão brioche.",
       "price": "R$28.90",
-      "image": "../../img/chapeleiro-louco.png"
+      "image": "../../img/chapeleiro-louco.jpg"
     },
     {
       "id": "a4",
       "name": "Charada",
       "description": "Burguer de 180g do nosso blend, queijo cheddar, bacon, cebola caramelizada e maionese da casa, servido no pão brioche.",
       "price": "R$29.90",
-      "image": "../../img/charada.png"
+      "image": "../../img/charada.jpg"
     },
     {
       "id": "a5",
       "name": "Coringa",
       "description": "Burguer de 180g do nosso blend, queijo gorgonzola, cebola caramelizada e maionese da casa, servido no pão brioche.",
       "price": "R$29.90",
-      "image": "../../img/coringa.png"
+      "image": "../../img/coringa.jpg"
     },
     {
       "id": "a6",
       "name": "Duas Caras 1.0",
       "description": "Burguer de 180g do nosso blend,catupiry empanado, bacon, alface,tomate e maionese da casa, servido no pão brioche.",
       "price": "R$34,90",
-      "image": "../../img/duas-caras1.png"
+      "image": "../../img/duas-caras1.jpg"
     },
     {
       "id": "a7",
       "name": "Duas Caras 2.0",
       "description": "Burguer de 180g do nosso blend,catupiry empanado, bacon, alface, tomate e maionese da casa, servido no pão brioche.",
       "price": "R$34,90",
-      "image": "../../img/duas-caras2.png"
+      "image": "../../img/duas-caras2.jpg"
     },
     {
       "id": "a8",
       "name": "Gotham City",
       "description": "Burguer de 180g do nosso blend, queijo, bacon crocante, farofa artesanal de bacon, barbecue Jack Daniels e maionese da casa,servido no pão brioche.",
       "price": "R$34,90",
-      "image": "../../img/gotham-city.png"
+      "image": "../../img/gotham-city.jpg"
     },
     {
       "id": "a9",
       "name": "Homem Elástico",
       "description": "Burguer de 180g do nosso blend, 4 camadas de queijo, bacon triturado e maionese da casa, servido no pão brioche.",
       "price": "R$34,90",
-      "image": "../../img/homem-elastico.png"
+      "image": "../../img/homem-elastico.jpg"
     },
     {
       "id": "a10",
       "name": "Joker Catupa Bacon",
       "description": "Burguer de 180g do nosso blend, muito catupiry, muito bacon em cubos e maionese da casa, servido no pão brioche.",
       "price": "R$34,90",
-      "image": "../../img/joker-catupa-bacon.png"
+      "image": "../../img/joker-catupa-bacon.jpg"
     },
     {
       "id": "a11",
       "name": "Joker Classic",
       "description": "Burguer de 180g do nosso blend, queijo e maionese da casa, servido no pão brioche",
       "price": "R$24,90",
-      "image": "../../img/joker-classic.png"
+      "image": "../../img/joker-classic.jpg"
     },
     {
       "id": "a12",
       "name": "Joker Chicken",
       "description": "Blend de frango, catupiry, bacon em cubos, cabola caramelizada e maionese da casa, servido no pão brioche.",
       "price": "R$29,90",
-      "image": "../../img/joker-chicken.png"
+      "image": "../../img/joker-chicken.jpg"
     },
     {
       "id": "a13",
       "name": "Magia",
       "description": "Dois smash burguers de 100g do nosso blend, queijo coalho, alface,tomate, cebola roxa, ovo, picles e maionese da casa, servido no pão brioche.",
       "price": "R$29,90",
-      "image": "../../img/magia.png"
+      "image": "../../img/magia.jpg"
     },
     {
       "id": "a14",
       "name": "Suicide Squad",
       "description": "Dois buguers de 100g do nosso blend, queijo, alface, tomate,cebola crispy e maionese da casa, servido no pão brioche.",
       "price": "R$28,90",
-      "image": "../../img/suicide-squad.png"
+      "image": "../../img/suicide-squad.jpg"
     },
     {
       "id": "a15",
       "name": "The Joker",
       "description": "Burguer de 200g do nosso blend, recheado com muito cheddar e enrolado com tiras de bacon, farofa artesanal de bacon e maionese da casa, servido no pão brioche.",
       "price": "R$33,90",
-      "image": "../../img/the-joker.png"
+      "image": "../../img/the-joker.jpg"
     },
     {
       "id": "a16",
       "name": "Trio Fantástico",
       "description": "Três mini burguers: 1- burguer de 50g do nosso blend, queijo e maionese casa, 2- burguer de 50g do nosso blend, cheddar, bacon e maionese da casa, 3- burguer de 50g do nosso blend, queijo, cebola crispy, barbecue Jack Daniels e maionese da casa.",
       "price": "R$26,90",
-      "image": "../../img/trio-fantastico.png"
+      "image": "../../img/trio-fantastico.jpg"
     },
     {
       "id": "a17",
       "name": "Triplo Joker",
       "description": "Três smash burguers de 100g do nosso blend, farofa artesanal de bacon, queijo, bacon, ketchup, mostarda e maionese da casa, servido no pão brioche.",
       "price": "R$35,90",
-      "image": "../../img/triplo-joker.png"
+      "image": "../../img/triplo-joker.jpg"
     }
   ],
   "Petiscos": [
@@ -126,21 +126,21 @@
       "name": "Bolinho de Costela",
       "description": "8 deliciosos bolinhos de costela desfiada com mandioca e mussarela, acompanha molho barbecue da casa.",
       "price": "R$29.90",
-      "image": "../../img/bolinho.png"
+      "image": "../../img/bolinho.jpg"
     },
     {
       "id": "b2",
       "name": "Cheddar Fries",
       "description": "Batata frita coberta por molho de cheddar e bacon picadinho, acompanha maionese da casa.",
       "price": "R$26.90",
-      "image": "../../img/cheddar-fries.png"
+      "image": "../../img/cheddar-fries.jpg"
     },
     {
       "id": "b3",
       "name": "Onion Rings",
       "description": "Anéis de Cebolas empanadas com farinha panko, acompanha maionese especial da casa.",
       "price": "R$28.90",
-      "image": "../../img/onion-rings.png"
+      "image": "../../img/onion-rings.jpg"
     }
   ],
   "Sobremesas": [
@@ -149,28 +149,28 @@
       "name": "Milkshake de Churros",
       "description": "Milkshake de churros",
       "price": "R$22.00",
-      "image": "../../img/milkshake-churros.png"
+      "image": "../../img/milkshake-churros.jpg"
     },
     {
       "id": "c2",
       "name": "Milkshake de Morango",
       "description": "Milkshake de morango",
       "price": "R$22.00",
-      "image": "../../img/milkshake.png"
+      "image": "../../img/milkshake-churros.jpg"
     },
     {
       "id": "c3",
       "name": "Milkshake de Nutella",
       "description": "Milkshake de nutella",
       "price": "R$22.00",
-      "image": "../../img/milkshake.png"
+      "image": "../../img/milkshake-churros.jpg"
     },
     {
       "id": "c4",
       "name": "Milkshake de Oreo",
       "description": "Milkshake de oreo",
       "price": "R$22.00",
-      "image": "../../img/milkshake-oreo.png"
+      "image": "../../img/milkshake-oreo.jpg"
     },
     {
       "id": "c5",
@@ -186,7 +186,7 @@
       "name": "Refrigerante",
       "description": "Refrigerante em lata: Coca-cola, Coca-cola Zero, Guaraná Antárctica, Guaraná Antárctica Zero, Fanta Laranja, Fanta Uva, Sprite, Schweppes Citrus.",
       "price": "R$6.00",
-      "image": "../../img/refrigerante.png"
+      "image": "../../img/refrigerante.jpg"
     },
     {
       "id": "d2",
