@@ -5,7 +5,7 @@
       "name": "Arlequina",
       "description": "Burguer de 160g (50% frango 50% bacon), empanado na massa de cerveja, alface, muito molho cheddar, bacon crocante, barbecue Jack Daniel e maionese da casa, servido no pão brioche.",
       "price": "R$29.90",
-      "image": "../../img/burguer2.png"
+      "image": "../../img/arlequina.png"
     },
     {
       "id": "a2",
@@ -16,7 +16,7 @@
     },
     {
       "id": "a3",
-      "name": "Chalepeiro Louco",
+      "name": "Chapeleiro Louco",
       "description": "Burguer de 180g do nosso blend, creme de provolone, farofa de banana da terra frita, geleia de bacon, rúcula e maionese de alho, servido no pão brioche.",
       "price": "R$28.90",
       "image": "../../img/chapeleiro-louco.png"
@@ -24,7 +24,7 @@
     {
       "id": "a4",
       "name": "Charada",
-      "description": "Burguer de 180g do nosso blend, queijo cheddar, bacon cebola caramelizada e maionese da casa, servido no pão brioche.",
+      "description": "Burguer de 180g do nosso blend, queijo cheddar, bacon, cebola caramelizada e maionese da casa, servido no pão brioche.",
       "price": "R$29.90",
       "image": "../../img/charada.png"
     },
@@ -68,7 +68,7 @@
       "name": "Joker Catupa Bacon",
       "description": "Burguer de 180g do nosso blend, muito catupiry, muito bacon em cubos e maionese da casa, servido no pão brioche.",
       "price": "R$34,90",
-      "image": "../../img/catupa-bacon.png"
+      "image": "../../img/joker-catupa-bacon.png"
     },
     {
       "id": "a11",
@@ -79,10 +79,10 @@
     },
     {
       "id": "a12",
-      "name": "Magia",
-      "description": "Dois smash burguers de 100g do nosso blend, queijo coalho, alface,tomate, cebola roxa, ovo, picles e maionese da casa, servido no pão brioche.",
+      "name": "Joker Chicken",
+      "description": "Blend de frango, catupiry, bacon em cubos, cabola caramelizada e maionese da casa, servido no pão brioche.",
       "price": "R$29,90",
-      "image": "../../img/joker-classic.png"
+      "image": "../../img/joker-chicken.png"
     },
     {
       "id": "a13",
@@ -133,7 +133,7 @@
       "name": "Cheddar Fries",
       "description": "Batata frita coberta por molho de cheddar e bacon picadinho, acompanha maionese da casa.",
       "price": "R$26.90",
-      "image": "../../img/onion-rings.png"
+      "image": "../../img/cheddar-fries.png"
     },
     {
       "id": "b3",

@@ -7,7 +7,7 @@ const HomePage = () => {
       <div className="section-1">
         <img
           className="bg-image"
-          src="/img/triplo-joker.png"
+          src="/img/duas-caras1.png"
           alt="background burger image"
         />
         <div className="text-overlay">
@@ -39,11 +39,11 @@ const HomePage = () => {
         </h1>
         <div className="img-container">
           <div className="img-container-all">
-            <img src="/img/burguer.png" alt="delicious burger" />
+            <img src="/img/gotham-city.png" alt="delicious burger" />
             <p>Burgers</p>
           </div>
           <div className="img-container-all">
-            <img src="/img/bolinho.png" alt="delicious appetizer" />
+            <img src="/img/trio-petiscos.png" alt="delicious appetizer" />
             <p>Entradas</p>
           </div>
           <div className="img-container-all">
@@ -55,7 +55,7 @@ const HomePage = () => {
 
       <div className="section-3">
         <div className="section-img">
-          <img src="/img/the-joker.png" alt="the joker burger" />
+          <img src="/img/burguer-app.png" alt="the joker burger" />
         </div>
         <div className="section-3-content">
           <div className="content-1">
