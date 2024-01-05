@@ -28,3 +28,13 @@
 .category-title img {
   transition: transform 0.3s ease;
 }
+
+@media screen and (max-width: 768px) {
+  .menu-category h3 {
+    font-size: 30px;
+  }
+
+  .category-title img {
+    width: 20px;
+  }
+}

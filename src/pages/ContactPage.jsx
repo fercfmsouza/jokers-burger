@@ -13,7 +13,6 @@ const ContactPage = () => {
           <div className='contact-infos'>
             <div className='contact-infos-icon'>
               <span className='material-symbols-outlined'> location_on</span>
-              {/* <img src="/assets/local.svg" alt="Local Icon" /> */}
             </div>
 
             <div className='contact-infos-text'>
@@ -27,7 +26,6 @@ const ContactPage = () => {
           <div className='contact-infos'>
             <div className='contact-infos-icon'>
               <span className='material-symbols-outlined'> call</span>
-              {/* <img src="/assets/fone.svg" alt="Fone Icon" /> */}
             </div>
 
             <div className='contact-infos-text'>
@@ -39,18 +37,16 @@ const ContactPage = () => {
           <div className='contact-infos'>
             <div className='contact-infos-icon'>
               <span className='material-symbols-outlined'> schedule</span>
-              {/* <img src="/assets/clock.svg" alt="Local Icon" /> */}
             </div>
 
             <div className='contact-infos-text'>
               <h3>Horário de Funcionamento</h3>
-              <p>18-23h de ter à dom</p>
+              <p>18h às 23h de ter à dom</p>
             </div>
           </div>
         </div>
 
         <div className='contact-wrapper-img'>
-          {/* <img src="/img/adress.png" alt="Image of Google Maps adress" /> */}
           <MapContainer />
         </div>
       </div>

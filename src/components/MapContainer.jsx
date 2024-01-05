@@ -1,16 +1,39 @@
-import { GoogleMap, useJsApiLoader, Marker } from '@react-google-maps/api';
+import { useState, useEffect } from 'react';
+import { GoogleMap, useJsApiLoader, MarkerF } from '@react-google-maps/api';
 
-const MapContainer = () => {
-  const apiKey = import.meta.env.VITE_REACT_APP_GOOGLE_MAPS_API_KEY;
-
-  const mapStyles = {
+// Define different styles for mobile and desktop
+const mapStyles = {
+  desktop: {
     height: '500px',
     width: '600px',
-  };
+  },
+  mobile: {
+    height: '500px',
+    width: '100%',
+  },
+};
+
+const getWidth = (width) =>
+  width <= 768 ? mapStyles.mobile : mapStyles.desktop;
+
+const MapContainer = () => {
+  const [currentStyles, setCurrentStyles] = useState(
+    getWidth(window.innerWidth),
+  );
+  const apiKey = import.meta.env.VITE_REACT_APP_GOOGLE_MAPS_API_KEY;
+
+  useEffect(() => {
+    const onResize = (event) =>
+      setCurrentStyles(getWidth(event.target.innerWidth));
+
+    window.addEventListener('resize', onResize);
+
+    return () => window.removeEventListener('resize', onResize);
+  }, []);
 
   const defaultCenter = {
-    lat: -9.96361,
-    lng: -67.80141,
+    lat: -9.9637098,
+    lng: -67.801485,
   };
 
   const { isLoaded } = useJsApiLoader({
@@ -19,10 +42,14 @@ const MapContainer = () => {
   });
 
   return isLoaded ? (
-    <GoogleMap mapContainerStyle={mapStyles} center={defaultCenter} zoom={18}>
-      <Marker
+    <GoogleMap
+      mapContainerStyle={currentStyles}
+      center={defaultCenter}
+      zoom={18}
+    >
+      <MarkerF
         position={defaultCenter}
-        icon={'http://maps.google.com/mapfiles/ms/icons/purple-dot.png'}
+        icon={'../../public/assets/local-maps.svg'}
       />
     </GoogleMap>
   ) : (

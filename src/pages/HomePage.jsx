@@ -21,9 +21,7 @@ const HomePage = () => {
             Cardápio
           </Link>
           <a
-            href={`https://api.whatsapp.com/send?phone=${encodeURIComponent(
-              '+5568992090190',
-            )}`}
+            href={`https://jokersburger.com.br/jokers_burger`}
             target='_blank'
             rel='noopener noreferrer'
             className='order-button'

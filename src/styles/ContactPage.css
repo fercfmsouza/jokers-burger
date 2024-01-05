@@ -1,7 +1,6 @@
 .contact-container {
   background-color: var(--color-white);
   margin: 60px;
-  /* padding: 20px; */
 }
 
 .contact-container h1 {
@@ -53,10 +52,32 @@
 .contact-infos-text p {
   font-family: var(--font-family-1);
   font-weight: 200;
-  /* margin-top: 5px; */
 }
 
 .contact-wrapper-img img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    margin: 0;
+  }
+
+  .contact-container h1 {
+    margin: 60px;
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+    border-radius: 0px;
+  }
+
+  .contact-wrapper-info {
+    padding-left: 0px;
+  }
+
+  .contact-wrapper-img {
+    width: 100%;
+  }
 }
