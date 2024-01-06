@@ -3,10 +3,23 @@
   margin: 60px;
 }
 
+.title-contact {
+  animation: slide-in 0.5s ease-out;
+  animation-fill-mode: backwards;
+}
+
 .contact-container h1 {
   font-family: var(--font-family-2);
   font-size: 3rem;
   margin-bottom: 20px;
+  line-height: 1;
+}
+
+.contact-container h2 {
+  font-family: var(--font-family-1);
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  line-height: 1;
 }
 
 .contact-wrapper {
@@ -16,6 +29,7 @@
   background-color: var(--color-black);
   color: var(--color-white);
   border-radius: 5px;
+  margin-top: 60px;
 }
 
 .contact-wrapper-info {
@@ -65,7 +79,11 @@
   }
 
   .contact-container h1 {
-    margin: 60px;
+    margin: 60px 60px 20px 60px;
+  }
+
+  .contact-container h2 {
+    margin-left: 60px;
   }
 
   .contact-wrapper {
@@ -79,5 +97,17 @@
 
   .contact-wrapper-img {
     width: 100%;
+  }
+}
+
+/* Animations */
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0.25;
+  }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
   }
 }

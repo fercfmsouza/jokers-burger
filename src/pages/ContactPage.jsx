@@ -4,9 +4,10 @@ import '../styles/ContactPage.css';
 const ContactPage = () => {
   return (
     <div className='contact-container'>
-      <h1>
+      <h1 className='title-contact'>
         contato<span className='dot'>.</span>
       </h1>
+      <h2 className='title-contact'>Conheça nossa loja</h2>
 
       <div className='contact-wrapper'>
         <div className='contact-wrapper-info'>

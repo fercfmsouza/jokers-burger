@@ -5,10 +5,10 @@ import products from '../dataJson/products.json';
 const MenuPage = () => {
   return (
     <div className='menu-container'>
-      <h1>
+      <h1 className='title-menu'>
         nosso cardápio<span className='dot'>.</span>
       </h1>
-      <h2>Escolha suas delícias e faça seu pedido</h2>
+      <h2 className='title-menu'>Escolha suas delícias e faça seu pedido</h2>
       <div className='menu-all-list'>
         {Object.keys(products).map((menuCategoryName) => (
           <MenuCategory
@@ -21,9 +21,7 @@ const MenuPage = () => {
 
       <div className='menu-btn'>
         <a
-          href={`https://api.whatsapp.com/send?phone=${encodeURIComponent(
-            '+5568992090190',
-          )}`}
+          href={`https://jokersburger.com.br/jokers_burger`}
           target='_blank'
           rel='noopener noreferrer'
           className='menu-button'

@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
   return (
     <div>
-      <div className='section-1'>
+      <div className='section-1 '>
         <img
-          className='bg-image'
+          className='bg-image our-burger-img'
           src='/img/main-burger.jpg'
           alt='background burger image'
         />
-        <div className='text-overlay'>
+        <div className='text-overlay our-burgers'>
           <h2>Conheça</h2>
           <h1>
             Nossos burgers<span className='dot'>.</span>
@@ -32,7 +32,7 @@ const HomePage = () => {
       </div>
 
       <div className='section-2'>
-        <h1>
+        <h1 className='title-animation'>
           Nossas Delícias<span className='dot'>.</span>
         </h1>
         <div className='img-container'>
@@ -45,7 +45,7 @@ const HomePage = () => {
             <p>Petiscos</p>
           </div>
           <div className='img-container-all'>
-            <img src='/img/milkshake-churros.jpg' alt='delicious milkshake' />
+            <img src='/img/nutella.jpg' alt='delicious milkshake' />
             <p>Sobremesas</p>
           </div>
         </div>
@@ -65,14 +65,14 @@ const HomePage = () => {
           </div>
           <div className='content-2'>
             <a
-              href='https://play.google.com/store/apps/details?id=com.wabiz.delivery.jokersburger'
+              href='https://play.google.com'
               target='_blank'
               rel='noopener noreferrer'
             >
               <img src='/img/google.png' alt='google link' />
             </a>
             <a
-              href='https://apps.apple.com/br/app/jokers-burger/id1597122894'
+              href='https://apps.apple.com'
               target='_blank'
               rel='noopener noreferrer'
             >

@@ -20,13 +20,14 @@ const Navbar = () => {
         <img src='/img/logo.png' alt="Joker's Burguer Logo" />
       </Link>
 
-      {/* Menu Hamburguer */}
+      {/* Menu Hamburger */}
       <div
         className={`hamburger-menu ${isMenuOpen ? 'open' : ''}`}
         onClick={toggleMenu}
       >
         <i className='material-symbols-outlined'>menu</i>
       </div>
+      {/* End Menu Hamburger */}
 
       <ul className={`navbar-items ${isMenuOpen ? 'show' : ''}`}>
         <li>
@@ -41,9 +42,7 @@ const Navbar = () => {
         </li>
         <li>
           <a
-            href={`https://api.whatsapp.com/send?phone=${encodeURIComponent(
-              '+5568992090190',
-            )}`}
+            href={`https://jokersburger.com.br/jokers_burger`}
             target='_blank'
             rel='noopener noreferrer'
             className='navbar-button'

@@ -139,6 +139,7 @@
   bottom: 0;
   left: 0;
   transition: width 0.3s ease;
+  animation: slide-from-left 0.8s;
 }
 
 .img-container-all {
@@ -188,8 +189,11 @@
 
 .content-2 {
   display: flex;
-  /* padding: 20px 0 40px 0; */
   gap: 10px;
+}
+
+.content-2 img:hover {
+  animation: pulse 0.8s ease-out;
 }
 
 .content-social {
@@ -206,11 +210,16 @@
   }
 
   /* section 1 */
+  .section-1 {
+    height: 500px;
+  }
+
   .text-overlay {
     padding-top: 40px;
+    top: 65%;
   }
   .text-overlay h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     margin-bottom: 0;
   }
 
@@ -219,7 +228,7 @@
   }
 
   .button-container {
-    padding-top: 20px;
+    top: 85%;
   }
 
   .menu-button,
@@ -280,5 +289,73 @@
 
   .content-social img {
     width: 40px;
+  }
+}
+
+.our-burger-img {
+  animation: appear 700ms ease-out;
+}
+
+.our-burgers {
+  animation: slide-from-top 1s ease-out;
+}
+
+.menu-button,
+.order-button {
+  animation: slide-from-bottom 1s ease-out;
+}
+
+/* Animations */
+@keyframes slide-from-top {
+  from {
+    transform: translateY(-100px);
+  }
+
+  to {
+    transform: translateY(-70px);
+  }
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slide-from-bottom {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes slide-from-left {
+  from {
+    transform: translateX(5%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scaleX(1);
+  }
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+  to {
+    transform: scaleX(1);
   }
 }
