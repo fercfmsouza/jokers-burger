@@ -47,10 +47,7 @@ const MapContainer = () => {
       center={defaultCenter}
       zoom={18}
     >
-      <MarkerF
-        position={defaultCenter}
-        icon={'../../public/assets/local-maps.svg'}
-      />
+      <MarkerF position={defaultCenter} icon={'/assets/local-maps.svg'} />
     </GoogleMap>
   ) : (
     <h1>Carregando...</h1>
