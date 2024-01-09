@@ -11,12 +11,12 @@ const MenuCategory = ({ menuCategoryName, items }) => {
   const rotateDegree = isOpen ? 45 : 0;
 
   return (
-    <div className='menu-category' onClick={toogleIsOpen}>
-      <div className='category-title'>
+    <div className="menu-category" onClick={toogleIsOpen}>
+      <div className="category-title">
         <h3>{menuCategoryName}</h3>
         <img
-          src='../../public/assets/icon-plus.svg'
-          alt='open and close button'
+          src="../../public/assets/icon-plus.svg"
+          alt="open and close button"
           style={{ transform: `rotate(${rotateDegree}deg)` }}
         />
       </div>
