@@ -15,7 +15,7 @@ const MenuCategory = ({ menuCategoryName, items }) => {
       <div className="category-title">
         <h3>{menuCategoryName}</h3>
         <img
-          src="../../public/assets/icon-plus.svg"
+          src="/assets/icon-plus.svg"
           alt="open and close button"
           style={{ transform: `rotate(${rotateDegree}deg)` }}
         />
