@@ -60,8 +60,10 @@
 
 @media screen and (max-width: 768px) {
   .footer-container {
-    font-size: 0.4rem;
+    font-size: 0.5rem;
     padding: 30px 20px;
+    flex-wrap: nowrap;
+    gap: 20px;
   }
 
   .column img {
@@ -73,7 +75,7 @@
   }
 
   .contact-info li:not(:first-child) {
-    padding-top: 8px;
+    padding-top: 6px;
   }
 
   .social-icons img {

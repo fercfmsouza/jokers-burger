@@ -1,9 +1,9 @@
 import '../styles/MenuItemDetail.css';
 import PropTypes from 'prop-types';
 
-const MenuItemDetail = ({ items }) => {
+const MenuItemDetail = ({ items, isOpen }) => {
   return (
-    <div className='menu-item-container'>
+    <div className={`menu-item-container ${isOpen ? 'open' : ''}`}>
       {items.map((item) => {
         return (
           <div key={item.id} className='menu-item-card'>
@@ -23,6 +23,9 @@ const MenuItemDetail = ({ items }) => {
   );
 };
 
-MenuItemDetail.propTypes = { items: PropTypes.array.isRequired };
+MenuItemDetail.propTypes = {
+  items: PropTypes.array.isRequired,
+  isOpen: PropTypes.bool.isRequired,
+};
 
 export default MenuItemDetail;

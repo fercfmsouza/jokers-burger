@@ -1,8 +1,16 @@
 .menu-item-container {
-  margin-top: 30px;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
+  transition: max-height, margin-top 0.3s; /* transition for max-height and margin-top to close the menu */
+  max-height: 0;
+  overflow: hidden;
+}
+
+.menu-item-container.open {
+  max-height: 2800px;
+  margin-top: 30px;
+  transition: max-height 1s; /* transition to open the menu */
 }
 
 .menu-item-card {
