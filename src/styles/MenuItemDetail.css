@@ -66,6 +66,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .menu-item-container.open {
+    max-height: 100%;
+  }
+
   .menu-item-card {
     padding: 15px;
     height: auto;
